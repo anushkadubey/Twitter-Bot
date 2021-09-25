@@ -1,0 +1,19 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "This is a twitter bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Twitter-Bot"
+  },
+  "author": "Anushka Dubey",
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.11",
+    "twitter": "^1.7.1"
+  }
+}
