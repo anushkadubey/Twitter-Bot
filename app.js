@@ -5,7 +5,7 @@ console.log("twitter bot started");
 function retweet(){
 // Now setting up the search parameters. Only using "q" parameter here out of various parameters.
 let params = {                                    
-    q: "#opensource",
+    q: "#webdev",
     count: 10,
     result_type: "recent",
     lang: "en",
