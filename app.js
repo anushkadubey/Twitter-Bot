@@ -9,7 +9,7 @@ let params = {
     count: 10,
     result_type: "recent",
     lang: "en",
-    min_retweets: 5
+    min_retweets: 10
   }
 
 app.get("search/tweets", params, (err, data, response)=>
