@@ -1,19 +1,21 @@
 {
   "name": "twitter-bot",
   "version": "1.0.0",
-  "description": "This is a twitter bot.",
-  "main": "index.js",
+  "description": "This is a twitter bot built using nodeJS and twitter v2 APIs",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "Twitter-Bot"
-  },
+  "keywords": [
+    "NodeJS",
+    "twitter-v2-api"
+  ],
   "author": "Anushka Dubey",
   "license": "ISC",
   "dependencies": {
-    "twit": "^2.2.11",
-    "twitter": "^1.7.1"
+    "cron": "^4.4.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "twitter-api-v2": "^1.28.0"
   }
 }
